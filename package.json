@@ -28,6 +28,9 @@
     "i18n:convert": "i18next-auto-keys convert --batch --output ./release/app/dist/renderer/i18n",
     "i18n:status": "i18next-auto-keys status --verbose"
   },
+  "workspaces": [
+    "release/app"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/project-slippi/slippi-launcher.git"
@@ -170,7 +173,6 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/lab": "^5.0.0-alpha.127",
     "@mui/material": "^5.12.1",
-    "@slippi/slippi-js": "^9.0.0",
     "@stylexjs/stylex": "^0.4.1",
     "@xmcl/nat-api": "^0.4.1",
     "async-mutex": "^0.4.0",
