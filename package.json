@@ -65,9 +65,6 @@
       "!**/*.test.ts"
     ]
   },
-  "workspaces": [
-    "release/app"
-  ],
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-typescript": "^7.24.7",
